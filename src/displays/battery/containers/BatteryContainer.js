@@ -1,8 +1,12 @@
+// Import ...
 import styled from "styled-components";
 
+// Import Components
 import PercentageComponent from "../components/PercentageComponent";
 import VoltageComponent from "../components/VoltageComponent";
 
+
+// Sub-components
 const Container = styled.div`
   border: solid 4px var(--blue-light);
   background-color: var(--black);
@@ -16,6 +20,8 @@ const Container = styled.div`
   width: 90vw;
 `;
 
+
+// Main Component
 const BatteryContainer = () => {
   return (
     <Container>
@@ -26,4 +32,6 @@ const BatteryContainer = () => {
   );
 }
 
+
+// Export
 export default BatteryContainer;
