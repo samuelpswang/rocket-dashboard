@@ -1,8 +1,36 @@
+@font-face {
+  font-family: 'FF DIN';
+  src: url('./fonts/DinNormal.woff2') format('woff2'),
+       url('./fonts/DinNormal.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'FF DIN';
+  src: url('./fonts/DinMedium.woff2') format('woff2'),
+       url('./fonts/DinMedium.woff') format('woff');
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: 'FF DIN';
+  src: url('./fonts/DinBold.woff2') format('woff2'),
+       url('./fonts/DinBold.woff') format('woff');
+  font-weight: bold;
+}
+
+:root {
+  --black: rgb(1, 1, 1);
+  --grey: rgb(200, 200, 200);
+  --white: rgb(249, 249, 249);
+  --blue-light: rgb(0, 255, 229);
+  --blue-dark: rgb(61, 153, 144);
+  --green-light: rgb(58, 203, 67);
+  --green-dark: rgb(64, 128, 68);
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'FF DIN', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
